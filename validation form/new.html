@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validation</title>
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<section class="cover">
+		<form >
+			<h1><span>Validation Form</span></h1>
+			<div class="form active">
+				<div class="field">
+					<label for="name">First Name</label>
+					<input type="text" placeholder="first name">
+			        <span></span>
+                </div>
+                <div class="field">
+                    <label for="name"> Last Name</label>
+					<input type="text" placeholder="last name">
+			        <span></span>
+				</div>
+				<div class="field">
+					<label for="number"> Mobile No</label>
+					<input type="number" placeholder="mobile no">
+			        <span></span>
+				</div>
+			</div>
+			<div class="form">
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="email">
+                    <span></span>
+                </div>
+				<div class="field">
+                    <h2 class="gender"> Gender </h2>
+                    <label class="radio">
+                        <input type="radio" value="male" name="gender">
+                        Male
+                    <span></span>  
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="female" name="gender">
+                        Female
+                    <span></span>  
+                    </label>
+                    <label class="radio">
+                        <input type="radio" value="OTHER" name="gender">
+                        Other
+                    <span></span>  
+                    </label>
+                    
+				</div>
+			</div>
+			<div class="form">
+				<div class="field">
+					<label for="Adress">address</label>
+					<input type="text" placeholder="Address">
+					<span></span>
+				</div>
+				<div class="field">
+					<label for="image">Picture</label>
+					<input type="file">
+					<span></span>
+				</div>
+			</div>
+			<button>Previous</button>
+			<button>Next</button>
+
+			<div class="page-indicator">
+			</div>
+		</form>
+	</section>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
